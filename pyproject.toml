@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rabbitmark"
+dynamic = ["version"]
+description = "bookmarks that remember why you saved them and which rabbit hole they belong to."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "farkhad", email = "bennett@frkhd.com" }]
+dependencies = [
+    "click>=8.1",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+rabbitmark = "rabbitmark.cli:main"
+
+[tool.hatch.version]
+path = "src/rabbitmark/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/rabbitmark"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
