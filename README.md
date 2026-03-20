@@ -1,5 +1,7 @@
 # rabbitmark
 
+
+![demo](docs/hero.gif)
 bookmarks were built to be forgotten. this one makes you write down why you saved the link, and which rabbit hole it belongs to.
 
 i kept opening my bookmarks bar and seeing a wall of blue underlines with zero memory of why any of them were there. so i wrote this. every save needs a note and a thread. lists come back as a tree. search actually works (fts5).
