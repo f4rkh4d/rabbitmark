@@ -40,7 +40,7 @@ db lives at `~/.rabbitmark/db.sqlite3`. one file, easy to back up.
 
 ## threads vs tags
 
-a thread is the rabbit hole — one per bookmark, like `postgres-internals` or `wasm-runtimes`. tags are facets, you can stack as many as you want (`db`, `mvcc`, `paper`). use threads when you come back to a topic for a week; use tags when you want to slice across threads.
+a thread is the rabbit hole. one per bookmark, like `postgres-internals` or `wasm-runtimes`. tags are facets, you can stack as many as you want (`db`, `mvcc`, `paper`). use threads when you come back to a topic for a week; use tags when you want to slice across threads.
 
 ## notes
 
